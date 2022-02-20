@@ -36,12 +36,20 @@ llegadas: [
 
 }
 
+http://localhost:3000/delay/salidallegada?pregunta=uno&salida=PHX&llegada=ALX
+
+{
+restrasoSalidas: 1695,
+restrasoLlegadas: 2309
+}
+
 http://localhost:3000/delay/salidallegada?pregunta=dos&carrier=PS
 
 {
 restrasoSalidas: 1695,
 restrasoLlegadas: 2309
 }
+
 
 http://localhost:3000/delay/carrierweather?pregunta=uno&salida=AUS&llegada=PHX
 
