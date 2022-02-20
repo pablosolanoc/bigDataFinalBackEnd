@@ -1,0 +1,51 @@
+
+http://localhost:3000/carrier
+{
+carriers: [
+"US",
+"HP",
+"WN",
+"PI",
+"PS",
+"UA",
+"DL"
+]
+}
+
+http://localhost:3000/ruta/
+
+{
+salidas: [
+"LGA",
+"SJC",
+"BUR",
+"CLT",
+"AUS",
+"MIA",
+"TPA",
+],
+
+llegadas: [
+"GSO",
+"DEN",
+"OAK",
+"ORF",
+"TPA",
+"IAD",
+]
+
+}
+
+http://localhost:3000/delay/salidallegada?pregunta=dos&carrier=PS
+
+{
+restrasoSalidas: 1695,
+restrasoLlegadas: 2309
+}
+
+http://localhost:3000/delay/carrierweather?pregunta=uno&salida=AUS&llegada=PHX
+
+{
+retrasoCarrier: 0,
+retrasoWeather: 0
+}
